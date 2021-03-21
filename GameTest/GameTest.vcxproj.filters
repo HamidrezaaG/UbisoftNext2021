@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="App\app.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\main.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSprite.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleSound.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SimpleController.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TextureLoader.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\Meshes\AnimatedMesh.cpp">
+      <Filter>API\Hamidreza\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\Meshes\Mesh.cpp">
+      <Filter>API\Hamidreza\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\Scene.cpp">
+      <Filter>API\Hamidreza</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Camera.cpp">
+      <Filter>API\Hamidreza\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\GameObject.cpp">
+      <Filter>API\Hamidreza\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Towers\BaseProjectile.cpp">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Towers\CubeTower.cpp">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Towers\Tower.cpp">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Monsters\Monster.cpp">
+      <Filter>API\Hamidreza\GameObjects\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Towers\TurretTower.cpp">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Towers\WaveTower.cpp">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Hamidreza\GameObjects\Monsters\MonsterSquiddle.cpp">
+      <Filter>API\Hamidreza\GameObjects\Monsters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppSettings.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\main.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSprite.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleSound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SimpleController.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TextureLoader.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Meshes\AnimatedMesh.h">
+      <Filter>API\Hamidreza\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Meshes\Mesh.h">
+      <Filter>API\Hamidreza\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Meshes\OBJLoader.h">
+      <Filter>API\Hamidreza\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Helpers\SimpleMath.h">
+      <Filter>API\Hamidreza\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Scene.h">
+      <Filter>API\Hamidreza</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Camera.h">
+      <Filter>API\Hamidreza\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\GameObject.h">
+      <Filter>API\Hamidreza\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Towers\BaseProjectile.h">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Towers\CubeTower.h">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Towers\Tower.h">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Monsters\Monster.h">
+      <Filter>API\Hamidreza\GameObjects\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Towers\TurretTower.h">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Helpers\ResourceManager.h">
+      <Filter>API\Hamidreza\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Towers\WaveTower.h">
+      <Filter>API\Hamidreza\GameObjects\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\GameObjects\Monsters\MonsterSquiddle.h">
+      <Filter>API\Hamidreza\GameObjects\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Hamidreza\Helpers\Spawner.h">
+      <Filter>API\Hamidreza\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{3e1485bf-3449-4966-8760-976ee866544b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza">
+      <UniqueIdentifier>{985e1fd4-216b-46f1-acfb-c1c7e00e0aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza\Meshes">
+      <UniqueIdentifier>{bdf6a803-cc20-48cb-a762-2d013ac2e95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza\Helpers">
+      <UniqueIdentifier>{89388bf1-e5d0-4bf7-9124-265398a3fe31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza\GameObjects">
+      <UniqueIdentifier>{d6238bc8-173e-4948-b451-0fb33257de0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza\GameObjects\Towers">
+      <UniqueIdentifier>{6963b80d-f7d5-48dc-886d-d92e2486c1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Hamidreza\GameObjects\Monsters">
+      <UniqueIdentifier>{314dc525-3322-4d8c-ab00-e2a1591d780c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
