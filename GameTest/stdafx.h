@@ -10,11 +10,11 @@
 #include <stdio.h>
 #include <tchar.h>
 
-#include "App\Hamidreza\Scene.h"
-#include "App\Hamidreza\Meshes\OBJLoader.h"
-#include "App\Hamidreza\Meshes\Mesh.h"
-#include "App\Hamidreza\Meshes\AnimatedMesh.h"
-#include "App\Hamidreza\Helpers\SimpleMath.h"
-#include "App\Hamidreza\GameObjects\GameObject.h"
+#include "App\ExtendedSource\Scene.h"
+#include "App\ExtendedSource\Meshes\OBJLoader.h"
+#include "App\ExtendedSource\Meshes\Mesh.h"
+#include "App\ExtendedSource\Meshes\AnimatedMesh.h"
+#include "App\ExtendedSource\Helpers\SimpleMath.h"
+#include "App\ExtendedSource\GameObjects\GameObject.h"
 
 // TODO: reference additional headers your program requires here
