@@ -1,4 +1,4 @@
-<p><strong>ABOUT</strong></p>
+<h2><strong>ABOUT</strong></h2>
 
 <p>This was my submission for the Ubisoft NEXT programming challenge in 2021, which I finished in the top 5. The challenge was to make a tower defense game in three days with the code framework provided.</p>
 
@@ -6,7 +6,7 @@
 
 <p><a href=https://youtu.be/XeJfRavezX8>Here's the original submission video that shows some features.</a></p>
 
-<p><strong>HOW TO PLAY</strong></p>
+<h2><strong>HOW TO PLAY</strong></h2>
 
 <p>The goal is to stop the monsters before they reach the cube in the middle. You achieve this by building towers on their path using your available funds (shown in the top left corner).</p>
 
@@ -16,9 +16,7 @@
 
 <p>The cube in the middle also has a manual weapon that you can shoot after selecting the cube and holding your right mouse button.</p>
 
-<p>&nbsp;</p>
-
-<p><strong>MY PROCESS</strong></p>
+<h2><strong>MY PROCESS</strong></h2>
 
 <p>After I got acclimated a little bit with the framework, I spent some time coming up with a visual design and what I expected the game to play like. I then broke down those ideas into components that I had to implement. I wanted it to stand out visually, so I spent some time building a compatible asset pipeline that allowed me to create my assets in blender and import them in as .Obj files. This access to more visual data allowed me to implement a simple vertex animation framework that would blend between different poses of the same mesh to create motion.</p>
 
