@@ -4,7 +4,9 @@
 
 <p>Participants would be able to play audio and render simple 2D line segments and sprites with the base framework.</p>
 
-<p><a href=https://youtu.be/XeJfRavezX8>Here's the original submission video that shows some features.</a></p>
+<br>
+<div align="center"><a href="https://youtu.be/XeJfRavezX8"><img src="https://drive.google.com/uc?export=view&id=1OMl6N6no24zdDoV6oQLMHT0v5jIWwZaS" target="_blank" rel="noopener noreferrer" width="75%"><img></a><br>Here's the original submission video that shows some features.</div>
+<br>
 
 <h2><strong>HOW TO PLAY</strong></h2>
 
